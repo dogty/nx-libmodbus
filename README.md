@@ -13,6 +13,7 @@ Here is a small example that allows you to read the registers 0 to 10
 int main(int argc, char *argv[])
 {
     u16 msgresp[10] = {0x00};
+    int len = 0;
     modbus_t *ctx = NULL;
     consoleInit(NULL);
 
@@ -43,7 +44,7 @@ int main(int argc, char *argv[])
           break; // break in order to return to hbmenu
         }
         
-        rc = modbus_read_registers(ctx, 0, 10, msgresp);
+        len = modbus_read_registers(ctx, 0, 10, msgresp);
         for (int i = 0; i < rc; i++)
         {
             printf("%d\n", msgresp[i]);
