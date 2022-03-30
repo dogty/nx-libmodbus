@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
         }
         
         len = modbus_read_registers(ctx, 0, 10, msgresp);
-        for (int i = 0; i < rc; i++)
+        for (int i = 0; i < len; i++)
         {
             printf("%d\n", msgresp[i]);
         }
