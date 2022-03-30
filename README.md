@@ -3,8 +3,8 @@ An implementation of the Modbus library for the switch (https://github.com/steph
 
 The documentation can be found here: https://libmodbus.org/
 
-#Example
-Here is a small example
+# Example
+Here is a small example that allows you to read the registers 0 to 10
 ```
 #include <stdio.h>
 #include <stdlib.h>
