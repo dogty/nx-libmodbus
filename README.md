@@ -5,7 +5,7 @@ The documentation can be found here: https://libmodbus.org/
 
 # Example
 Here is a small example that allows you to read the registers 0 to 10
-```
+```C
 #include <stdio.h>
 #include <stdlib.h>
 #include <switch.h>
