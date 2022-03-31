@@ -3,6 +3,9 @@ An implementation of the Modbus library for the switch (https://github.com/steph
 
 The documentation can be found here: https://libmodbus.org/
 
+# Dependencies
+This library uses libnx (https://github.com/switchbrew/libnx)
+
 # Example
 Here is a small example that allows you to read the registers 0 to 10
 ```C
