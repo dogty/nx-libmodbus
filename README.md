@@ -7,7 +7,7 @@ The documentation can be found here: https://libmodbus.org/
 This library uses libnx (https://github.com/switchbrew/libnx)
 
 # Example
-Here is a small example that allows you to read the registers 0 to 10
+Here is a small example that allows you to read the registers 0 to 9
 ```C
 #include <stdio.h>
 #include <stdlib.h>
